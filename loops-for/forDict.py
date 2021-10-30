@@ -1,12 +1,8 @@
 def reverse_dict(dict):
   # swap keys and values within dict and return dict
-  old_dict = dict
   new_dict = {}
   for k, v in dict.items():
-    if v in new_dict:
-      new_dict[v].append(k)
-    else:
-      new_dict[v]=k
+    new_dict[v] = k
   return new_dict
 
 
