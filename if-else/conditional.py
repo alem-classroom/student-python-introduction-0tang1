@@ -30,5 +30,3 @@ def is_positive_or_even(num):
     else:
         return False
 
-
-print(is_even(4))
