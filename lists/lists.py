@@ -1,3 +1,5 @@
+import random
+
 def size_of_list(list):
   # return size of list
   return len(list)
@@ -13,7 +15,7 @@ def delete_elem_from_list(list, index = -1):
   # delete element from list, such that its index is index
   # if index is invalid, return empty list
   if index < len(list):
-    list.remove(index)
+    list.pop(index)
     return list
   else:
     return []
@@ -36,5 +38,13 @@ def reverse(list):
   return list
 
 
-# lst = [1, 3, 2]
-# print(delete_elem_from_list(lst, 3))
+# random_int = random.randint(0, 40)
+# print(random_int)
+# print()
+# lst = []
+# for j in range (100):
+#   if random.randint(0, 10) > 5:
+#     lst.append(j)
+# print(lst, end="\n")
+# delete_elem_from_list(lst, random_int)
+# print(lst)
