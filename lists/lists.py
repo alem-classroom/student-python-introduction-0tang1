@@ -1,5 +1,3 @@
-import random
-
 def size_of_list(list):
   # return size of list
   return len(list)
