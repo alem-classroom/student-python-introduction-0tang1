@@ -9,12 +9,12 @@ def add_elem_to_list(list, elem):
   return list
 
 
-def delete_elem_from_list(list, index = -1):
+def delete_elem_from_list(list, index):
   # delete element from list, such that its index is index
   # if index is invalid, return empty list
   if len(list) < index:
     return []
-  return list.pop(len(list) -1)
+  return list.pop(index)
 
 
 def count_elements_in_list(list, x):
