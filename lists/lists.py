@@ -14,7 +14,7 @@ def delete_elem_from_list(list, index = -1):
   # if index is invalid, return empty list
   if len(list) < index:
     return []
-  return list.pop(index)
+  return list.pop(len(list) -1)
 
 
 def count_elements_in_list(list, x):
