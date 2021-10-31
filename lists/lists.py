@@ -24,14 +24,14 @@ def count_elements_in_list(list, x):
 
 def sort_list(list):
   # return sorted list
-  list.sort()
-  return list
+  sorted_list = list.sort()
+  return sorted_list
 
 
 def reverse(list):
   # return reversed list
-  list.reverse()
-  return list
+  reversed_list = list.reverse()
+  return reversed_list
 
 
 # random_int = random.randint(0, 40)
